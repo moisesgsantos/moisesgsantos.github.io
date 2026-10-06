@@ -1,0 +1,6 @@
+AUDITORIA*.md
+*.bak-*
+.playwright-mcp/
+.claude-flow/
+.codegraph/
+.omo/

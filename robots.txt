@@ -1,0 +1,12 @@
+# Robots.txt para Almerinda Novaes Advocacia Previdenciária
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://almerindanovaesadv.com.br/sitemap.xml
+
+# Não rastrear arquivos administrativos
+# Nota: /sitemap.xml NÃO é bloqueado — é listado acima em "Sitemap:" e
+# precisa ser rastreável para que a descoberta funcione.
+Disallow: /fonts/
+Disallow: /manifest.json$

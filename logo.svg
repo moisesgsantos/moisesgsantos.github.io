@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c6a66a"/>
+      <stop offset="100%" style="stop-color:#b8955a"/>
+    </linearGradient>
+    <linearGradient id="logoGoldInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdfaf3"/>
+      <stop offset="100%" style="stop-color:#f4e8c8"/>
+    </linearGradient>
+    <filter id="logoShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#c6a66a" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Outer container with gradient background -->
+  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#logoGold)" filter="url(#logoShadow)"/>
+
+  <!-- Inner white/cream area -->
+  <rect x="48" y="48" width="416" height="416" rx="96" fill="url(#logoGoldInner)"/>
+
+  <!-- Balanced scales icon - centered -->
+  <g transform="translate(256, 256)">
+    <!-- Beam -->
+    <path d="M-80,-50 L80,-50" fill="none" stroke="url(#logoGold)" stroke-width="12" stroke-linecap="round"/>
+    <!-- Center pivot -->
+    <circle cx="0" cy="-50" r="8" fill="url(#logoGold)"/>
+    <!-- Left pan -->
+    <path d="M-80,-50 L-100,-10 L-60,-10 Z" fill="url(#logoGold)"/>
+    <path d="M-100,-10 L-110,30" fill="none" stroke="url(#logoGold)" stroke-width="10" stroke-linecap="round"/>
+    <!-- Right pan -->
+    <path d="M80,-50 L100,-10 L60,-10 Z" fill="url(#logoGold)"/>
+    <path d="M100,-10 L110,30" fill="none" stroke="url(#logoGold)" stroke-width="10" stroke-linecap="round"/>
+    <!-- Base line -->
+    <path d="M-40,30 L40,30" fill="none" stroke="url(#logoGold)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

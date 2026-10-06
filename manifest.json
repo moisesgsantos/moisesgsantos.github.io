@@ -1,0 +1,43 @@
+{
+  "name": "Almerinda Novaes Advocacia Previdenciária",
+  "short_name": "Almerinda Novaes",
+  "description": "Advocacia Previdenciária especializada em aposentadoria, benefícios e revisão de decisões do INSS. Atendimento presencial e online.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#122c45",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["business", "finance", "legal"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Agendar Consulta",
+      "short_name": "Consulta",
+      "description": "Agendar consultoria previdenciária",
+      "url": "/#contato",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
